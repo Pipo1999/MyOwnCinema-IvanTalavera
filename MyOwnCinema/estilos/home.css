@@ -1,0 +1,99 @@
+/*MENU*/
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #151617;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu p {
+    transition: 0.5s;
+}
+
+.menu p:hover {
+    transform: scale(1.8, 1.8);
+}
+
+
+/*
+li>ul {
+    display: none;
+}
+
+li:hover>ul {
+    display: block;
+}
+*/
+
+
+/*BODY*/
+
+.carruseles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allCarruseles {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.allCarruseles h1 {
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+}
+
+.caja>img {
+    width: 30px;
+    padding: 50px 5px 50px 5px;
+    background-color: rgba(0, 0, 0, 0.185);
+    transition: 0.3s;
+}
+
+.caja>img:hover {
+    transform: scale(1, 1.85);
+}
+
+.caja>img:hover {
+    cursor: pointer;
+    background-color: rgba(112, 110, 110, 0.692);
+}
+
+.portadas {
+    background-color: rgba(95, 93, 93, 0.37);
+    padding: 10px;
+}
+
+.caja .portadas>img {
+    width: 150px;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 10px outset;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, rgb(0, 0, 0), rgb(131, 131, 131));
+    transition: 0.5s;
+}
+
+.caja .portadas>img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+/*RESPONSIVE*/
