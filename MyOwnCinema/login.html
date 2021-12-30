@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ivan Talavera" />
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/template_grid2.css" />
+    <link rel="stylesheet" href="estilos/general.css" />
+    <link rel="stylesheet" href="estilos/login.css" />
+    <link rel="stylesheet" href="estilos/fondo-logo-subiendo.css" />
+    <link rel="stylesheet" href="estilos/letras-smoke.css" />
+</head>
+
+<ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<body>
+    <header id="header">
+        <div class="container-fluid ">
+            <div class="row header">
+                <div class="col-6">
+                    <a href="./index.html">
+                        <div class="icon">
+                            <img src="img/logo.png">
+                            <p>Inicio</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 entrar">
+                    <span class="smoke">
+                        <p>
+                            <a href="login.html">
+                                <p id="acceder">Acceder</p>
+                            </a>
+                        </p>
+                    </span>
+                    <hr>
+                    <p>
+                        <a href="registro.html">
+                            <p id="registro">Registrarse</p>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row centrar">
+                <div id="form" class="col-12 form centrar">
+                    <h1>Inicio de sesión</h1>
+                    <hr>
+                    <form class="container-fluid">
+                        <div class="row campo c1 centrar">
+                            <div class="row col-12 flex centrar">
+                                <div class="col-6 label">
+                                    <label>Email/Usuario</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" placeholder="Introduzca su email o usuario" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row campo c2">
+                            <div class="row col-12 flex centrar">
+                                <div class="col-6 label">
+                                    <label>Contraseña</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="password" placeholder="Introduzca su contraseña" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row campo c3 centrar">
+                            <div class="row col-12 flex">
+                                <div class="col-6"> 
+                                    <p><input id="cb" type="checkbox">Recuérdame</p>
+                                </div>
+                                <div class="col-6">
+                                    <p><a href="#">¿Contraseña olvidada?</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row campo c4">
+                            <div class="col-12">
+                                <input id="accederB" type="submit" value="Iniciar sesión">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 redes">
+                    <img src="img/logo.png">
+                    <hr>
+                    <a href="#"><img src="img/twitter.png"></a>
+                    <a href="#"><img src="img/instagram.png"></a>
+                    <a href="#"><img src="img/facebook.png"></a>
+                </div>
+            </div>
+            <div class="row enlaces">
+                <div class="col-3 ">
+                    <p><a href="sobre_nosotros.html">Sobre nosotros</a></p>
+                </div>
+                <div class="col-3 ">
+                    <p><a href="soporte.html">Soporte</a></p>
+                </div>
+                <div class="col-3 ">
+                    <p><a href="sugerencia.html">Sugerencias</a></p>
+                </div>
+                <div class="col-3 ">
+                    <p><a href="cookies.html">Cookies</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/login.js"></script>
+    <script src="js/general.js"></script>
+
+</body>
+
+</html>

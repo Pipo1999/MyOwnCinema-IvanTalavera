@@ -1,0 +1,20 @@
+.smoke {
+    display: inline-block;
+    text-shadow: 0 0 0 rgb(255, 0, 0);
+    animation: smoky 2s 0.2s both;
+}
+
+.smoke:nth-child {
+    animation-name: smoky-mirror;
+}
+
+@keyframes smoky {
+    60% {
+        text-shadow: 0 0 40px rgb(255, 0, 0);
+    }
+    to {
+        transform: translate3d(-15rem, 8rem, 0) rotate(-90deg) skewX(70deg) scale(2);
+        text-shadow: 0 0 20px rgb(255, 0, 0);
+        opacity: 0;
+    }
+}

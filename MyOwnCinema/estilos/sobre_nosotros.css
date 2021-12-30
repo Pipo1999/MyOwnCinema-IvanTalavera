@@ -1,0 +1,16 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.contenido h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contenido p {
+    text-align: center;
+    line-height: 30px;
+}
